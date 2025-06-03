@@ -1,6 +1,10 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 function App() {
   const [buttonRequest, setButtonRequest] = useState(false);
@@ -48,12 +52,16 @@ function App() {
 
   const [project] = useState([
     {
-      img: "../src/assets/website1.png",
+      img: "../public/images/website1.png",
       desc: "This is a website for an organization event that is held internationally. It is built using front-end stack and PHP.",
     },
     {
-      img: "../src/assets/website2.png",
+      img: "../public/images/website2.png",
       desc: "A website made for competition in which i have to slice a landing page. It is built using front-end stack.",
+    },
+    {
+      img: "../public/images/website3.png",
+      desc: "An online Encyclopedia about Indonesian cultures that wins me a second place at I/O Festival in Universitas Tarumanegara.",
     },
   ]);
 
@@ -71,7 +79,7 @@ function App() {
         </div>
 
         <div className="h-4/6 w-full flex justify-center relative">
-          <img className="h-full" src="../src/assets/chara.png" alt="" />
+          <img className="h-full" src="../public/images/chara.png" alt="" />
           <div className="shadow"></div>
         </div>
       </div>
@@ -219,10 +227,10 @@ function App() {
                 </h1>
               </div>
 
-              <div className="h-2/4 w-11/12">
+              <div className="h-2/4 w-11/12 lg:w-7/12">
                 <img
                   className="w-full h-full"
-                  src={`../src/assets/${about.pic[no]}`}
+                  src={`../public/images/${about.pic[no]}`}
                   alt={`${about.text[no]} picture`}
                 />
               </div>
@@ -281,21 +289,21 @@ function App() {
             </h1>
           </div>
 
-          <div className="row-span-6 mt-2">
+          <div className="row-span-6 mt-2 lg:mt-6">
             <div className="border-l-4 h-full border-white ml-16"></div>
           </div>
         </div>
 
-        <div className="w-7/12 p-6 py-10 ">
+        <div className="w-7/12 p-6 py-10">
           <div className="h-full w-full grid grid-rows-5 grid-cols-2">
             {logo.csv.map((x, index) => (
               <div
-                className={`m-2 p-2 my-6 border-2 rounded-md ${logo.bgcolor[index]}`}
+                className={`m-2 lg:m-1 p-2 my-6 border-2 rounded-md ${logo.bgcolor[index]}`}
                 key={index}
               >
                 <img
                   className="w-full h-full"
-                  src={`../src/assets/logo/${x}`}
+                  src={`../public/images/logo/${x}`}
                   alt="skills logo"
                 />
               </div>
