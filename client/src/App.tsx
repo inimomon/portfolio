@@ -52,15 +52,15 @@ function App() {
 
   const [project] = useState([
     {
-      img: "../public/images/website1.png",
+      img: "/images/website1.png",
       desc: "This is a website for an organization event that is held internationally. It is built using front-end stack and PHP.",
     },
     {
-      img: "../public/images/website2.png",
+      img: "/images/website2.png",
       desc: "A website made for competition in which i have to slice a landing page. It is built using front-end stack.",
     },
     {
-      img: "../public/images/website3.png",
+      img: "/images/website3.png",
       desc: "An online Encyclopedia about Indonesian cultures that wins me a second place at I/O Festival in Universitas Tarumanegara.",
     },
   ]);
@@ -79,7 +79,7 @@ function App() {
         </div>
 
         <div className="h-4/6 w-full flex justify-center relative">
-          <img className="h-full" src="../public/images/chara.png" alt="" />
+          <img className="h-full" src="/images/chara.png" alt="" />
           <div className="shadow"></div>
         </div>
       </div>
@@ -230,7 +230,7 @@ function App() {
               <div className="h-2/4 w-11/12 lg:w-7/12">
                 <img
                   className="w-full h-full"
-                  src={`../public/images/${about.pic[no]}`}
+                  src={`/images/${about.pic[no]}`}
                   alt={`${about.text[no]} picture`}
                 />
               </div>
@@ -303,7 +303,7 @@ function App() {
               >
                 <img
                   className="w-full h-full"
-                  src={`../public/images/logo/${x}`}
+                  src={`/images/logo/${x}`}
                   alt="skills logo"
                 />
               </div>
