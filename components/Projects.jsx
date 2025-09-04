@@ -13,42 +13,42 @@ const Projects = () => {
             title: "Sound Healing Ticketing Website",
             tags: ["Front-end", "Back-end", "PHP", "Payment Gateway"],
             description: "Sound healing is a ticketing website for a spiritual events. With the integration of Midtrans payment gateway, users can easily book and pay for events online. The barcode system makes it easy to take attendance during the event.",
-            link: "#"
+            link: "https://awakeningvajranusantara.org/soundhealing101/"
         },
         {
             image: Website2,
             title: "Liga SMK Company Profile",
             tags: ["Front-end", "HTML", "TailwindCSS"],
             description: "Liga SMK is a front-end company profile project for a vocational high school competition. The website features a modern and responsive design using TailwindCSS, with challenges of building complex components.",
-            link: "#"
+            link: "https://github.com/inimomon/liga-smk"
         },
         {
             image: Website3,
             title: "Rasantara: Indonesia Encyclopedia",
             tags: ["Front-end", "Back-end", "ReactJS", "TailwindCSS"],
             description: "Rasantara is an Indonesia Encyclopedia website build as a final project in Tarumanegara University's I/O Festival. Through interactive display, Rasantara aims to educate people more about Indonesia's robust culture.",
-            link: "#"
+            link: "https://github.com/inimomon/rasantara"
         },
         {
             image: Website4,
             title: "MeditasiAI by AVN",
             tags: ["Front-end", "Back-end", "API", "NextJS", "NodeJS", "Express", "TailwindCSS"],
             description: "Rasantara is an Indonesia Encyclopedia website build as a final project in Tarumanegara University's I/O Festival. Through interactive display, Rasantara aims to educate people more about Indonesia's robust culture.",
-            link: "#"
+            link: "https://meditasiai.awakeningvajranusantara.org/"
         },
         {
             image: Website5,
             title: "Perpustakaan Digital",
             tags: ["Front-end", "Back-end", "Laravel", "TailwindCSS", "MySQL"],
             description: "Perpustakaan Digital is a digital library platform that allows users to access a wide range of books and resources online. Built with Laravel and TailwindCSS to complete my junior coder certificate.",
-            link: "#"
+            link: "https://github.com/inimomon/perpustakaan-online"
         },
         {
             image: Website6,
             title: "SEA Cathering",
             tags: ["Front-end", "Back-end", "NextJS", "TailwindCSS"],
             description: "SEA Catering is a web application that allows users to order catering services online built with NextJS. It serves as a criteria to join Indonesia University's Academy.",
-            link: "#"
+            link: "https://github.com/inimomon/sea-cathering"
         }
     ];
 
