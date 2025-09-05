@@ -4,6 +4,7 @@ import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Tech from "@/components/Tech";
 import Contact from "@/components/Contact";
+import BottomNav from "@/components/BottomNav";
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <BottomNav />
     </main>
   );
 }

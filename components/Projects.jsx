@@ -53,7 +53,7 @@ const Projects = () => {
     ];
 
     return (
-        <div className="pt-20 h-auto w-full geist-sans">
+        <div className="pt-20 h-auto w-full geist-sans" id="projects">
             <h1 className="text-3xl lg:text-5xl text-white">Recent Projects</h1>
             {/* <div className="h-10 w-full mt-8 border bg-[#0b0c0e] flex items-center px-6 text-white">Search for projects</div> */}
 

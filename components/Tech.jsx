@@ -18,7 +18,7 @@ const LOGOS = [
 
 const Tech = () => {
   return (
-    <div className="mt-40 -mx-4 lg:-mx-10">
+    <div className="mt-40 -mx-4 lg:-mx-10" id="tech">
       <h1 className="text-3xl lg:text-5xl text-white text-center mb-12">Tech Stack</h1>
 
       <Marquee

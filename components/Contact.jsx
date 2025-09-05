@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <>
         <hr className="mt-40 text-white -mx-4 lg:-mx-10" />
-        <div className="py-20">
+        <div className="py-20" id="contact">
             <h1 className="px-2 lg:px-4 py-2 flex items-center justify-center rounded-md border border-white molex text-4xl lg:text-9xl text-white">RICHMOND WIJAYA</h1>
             <div className="pt-10 text-white">
                 <div className="flex flex-col lg:flex-row justify-between lg:items-end">
