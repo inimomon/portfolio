@@ -12,13 +12,13 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 const Hero = () => {
   const [open, setOpen] = useState(false);
   return (
-    <section className="px-10 relative flex h-screen w-full items-end justify-between bg-grid overflow-hidden">
+    <section className="px-4 lg:px-10 relative flex h-screen w-full items-end justify-between bg-grid overflow-hidden">
       {/* Top pill banner */}
       <div className="absolute top-6 left-0 z-20 flex w-full items-center justify-center">
-        <span className="h-12 w-full mx-10 px-6 flex justify-between items-center text-sm rounded-xl bg-white font-semibold shadow-xl geist-mono">
+        <span className="h-12 w-full mx-4 lg:mx-10 px-2 lg:px-6 flex justify-between items-center text-xs lg:text-sm rounded-xl bg-white font-semibold shadow-xl geist-mono">
           {/* Logo and Occupation */}
           <div className="flex items-center gap-4">
-            <figure className="size-8 flex justify-center items-center bg-black rounded-md text-white molex">
+            <figure className="size-8 px-2 lg:px-0 flex justify-center items-center bg-black rounded-md text-white molex">
               <span>RW</span>
             </figure>
             <h1>FULL-STACK DEVELOPER</h1>
@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="relative">
             <button
               onClick={() => setOpen(!open)}
-              className="flex items-center gap-2 px-4 py-2 rounded-md hover:bg-gray-100 transition"
+              className="flex items-center gap-2 px-2 lg:px-4 py-2 rounded-md hover:bg-gray-100 transition"
             >
               Contact Me
             </button>
@@ -74,11 +74,11 @@ const Hero = () => {
       </div>
 
       {/* Big name behind image */}
-      <h1 className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center molex text-[10rem] leading-none text-black/90">
+      <h1 className="pointer-events-none absolute inset-0 z-0 flex top-1/8 lg:top-0 items-start lg:items-center justify-center molex text-7xl text-center lg:text-[10rem] tracking-widest lg:tracking-normal leading-none text-black/90">
         Richmond Wijaya
       </h1>
 
-      <h1 className="mb-6 geist-mono text-xs">inspired by matthisgarnier.</h1>
+      <h1 className="hidden lg:block mb-6 geist-mono text-xs">inspired by matthisgarnier.</h1>
 
       {/* Character image */}
       <Image
@@ -90,7 +90,7 @@ const Hero = () => {
         priority
       />
 
-      <div className="mb-6 px-4 text-xs font-semibold geist-mono py-2 bg-white rounded-md flex justify-center items-center">©2025</div>
+      <div className="hidden mb-6 px-4 text-xs font-semibold geist-mono py-2 bg-white rounded-md lg:flex justify-center items-center">©2025</div>
     </section>
   );
 };

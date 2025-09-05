@@ -14,7 +14,7 @@ const IMAGES = [Gallery4, Gallery1, Gallery3, Gallery5, Gallery2, Gallery6];
 const Gallery = () => {
   return (
     <div className="mt-40">
-      <h1 className="text-5xl text-white text-center">Richmond&apos;s Gallery</h1>
+      <h1 className="text-3xl lg:text-5xl text-white text-center">Richmond&apos;s Gallery</h1>
 
       <section className="mx-auto max-w-5xl px-4 py-12">
         <div className="columns-3 gap-4">

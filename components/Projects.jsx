@@ -54,10 +54,10 @@ const Projects = () => {
 
     return (
         <div className="pt-20 h-auto w-full geist-sans">
-            <h1 className="text-5xl text-white">Recent Projects</h1>
+            <h1 className="text-3xl lg:text-5xl text-white">Recent Projects</h1>
             {/* <div className="h-10 w-full mt-8 border bg-[#0b0c0e] flex items-center px-6 text-white">Search for projects</div> */}
 
-            <div className="mt-8 grid grid-cols-2 gap-8">
+            <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {projectData.map((project, index) => (
                     <ProjectCard 
                         key={index}

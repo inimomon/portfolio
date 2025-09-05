@@ -19,7 +19,7 @@ const LOGOS = [
 const Tech = () => {
   return (
     <div className="mt-40 -mx-10">
-      <h1 className="text-5xl text-white text-center mb-12">Tech Stack</h1>
+      <h1 className="text-3xl lg:text-5xl text-white text-center mb-12">Tech Stack</h1>
 
       <Marquee
         gradient={false}

@@ -14,7 +14,7 @@ export default function Home() {
         </div>
 
         <div className="absolute top-[100vh] left-0 right-0 z-10">
-          <div className="px-10 h-auto bg-black">
+          <div className="px-4 lg:px-10 h-auto bg-black">
             <Projects />
             <Tech />
             <About />
